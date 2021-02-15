@@ -26,7 +26,7 @@ and open the template in the editor.
 <body>
     <div class="m-0 p-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-primary m-0 p-3 shadow">
-            <a class="navbar-brand   text-white" href="./index.php"><span class="fa fa-certificate p-1 m-1"></span>Ninjas Freelancing</a>
+            <a class="navbar-brand   text-white" href="./index.php"><span ><img src = "svvv_ninjas.png" style = "height:60px;"></span>Ninjas Freelancing</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
