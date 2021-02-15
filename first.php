@@ -26,7 +26,7 @@ and open the template in the editor.
 <body>
     <div class="m-0 p-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-primary m-0 p-3 shadow">
-            <a class="navbar-brand   text-white" href="#"><span class="fa fa-certificate p-1 m-1"></span>Ninjas Freelancing</a>
+            <a class="navbar-brand   text-white" href="./index.php"><span class="fa fa-certificate p-1 m-1"></span>Ninjas Freelancing</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -34,18 +34,18 @@ and open the template in the editor.
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active ml-5">
-                        <a class="nav-link" href="./index.php">Home</a>
-                    </li>
-                    <li class="nav-item  " >
-                        <a class="nav-link" href="./login.php">Login</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="./signup.php">Signup</a>
-                    </li>
+                     
                 </ul>
                 
             </div>
+            <div class="nav-item rounded border border-black mr-1">
+                        <span class="fa fa-user fa-spin ml-1 pl-1"></span>
+                        <a class="btn btn-primary mx-3 px-1" href="./login.php" >Login</a>
+                    </div>
+           <div class="nav-item rounded border border-black ml-5 mr-1">
+                         <span class="fa fa-user fa-spin ml-1 pl-1"></span>
+                        <a class="btn btn-primary mx-3 px-1" href="./signup.php">Signup</a>
+           </div>
         </nav>
     </div>
     
