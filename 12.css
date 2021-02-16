@@ -16,6 +16,10 @@ body {
     margin-left: 10%;
     cursor: pointer;
     margin-top: 2%;
+    width: 10%;
+    outline: none;
+    padding: 1%;
+    background-color: white;
 }
 
 .btn-1:hover {
@@ -26,7 +30,11 @@ body {
     margin-left: 21%;
     cursor: pointer;
     position: absolute;
-    margin-top: -2%;
+    margin-top: -4%;
+    width: 10%;
+    outline: none;
+    padding: 0.26%;
+    background-color: white;
 }
 
 .btn-2:hover {

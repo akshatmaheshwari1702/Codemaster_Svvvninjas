@@ -21,6 +21,7 @@ and open the template in the editor.
         .b-color {
             background-color: #ff1f1f !important;
         }
+        
     </style>
 </head>
 

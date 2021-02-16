@@ -40,11 +40,17 @@
                 </p>
                 <input type="text" class="input-2" placeholder="Describe your project here.."></input>
                 <div class="upload">
-                    <button class="btn-upload">Upload Files</button>
+                <form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+  
+</form>    
+                
                     <p>Drag & drop any images or documents that might be helpful in explaining
                         your brief here (Max file size: 25 MB).
                     </p>
+                    
                 </div>
+                <input type="submit">
             </form>
             </div>
         </div>

@@ -1,34 +1,40 @@
-body{
+body {
     top: 0;
-
 }
-.blue{
+
+.blue {
     background-color: blue;
     position: absolute;
     width: 100%;
     height: 60%;
 }
-.blue-header{
+
+.blue-header {
     margin: 0% 25% 0% 25%;
     color: honeydew;
 }
-.blue-header h1{
+
+.blue-header h1 {
     font-size: 30px;
 }
-.img{
+
+.img {
     position: absolute;
-    width:100px;
-    height:100px ;
+    width: 100px;
+    height: 100px;
 }
-.image-head{
+
+.image-head {
     display: flex;
     justify-content: start;
 }
-.image-head h1{
+
+.image-head h1 {
     margin: 6% 5% 5% 12%;
     font-size: 35px;
 }
-.white{
+
+.white {
     margin: 0% 0% 10% 24%;
     background-color: white;
     width: 700px;
@@ -36,7 +42,8 @@ body{
     border-radius: 2px;
     border: 2px solid grey;
 }
-.input-1{
+
+.input-1 {
     width: 90%;
     height: 7%;
     margin: 0% 0% 0% 4%;
@@ -44,28 +51,31 @@ body{
     padding: 0% 0% 0% 1%;
 }
 
-.input-2{
+.input-2 {
     width: 90%;
     height: 7%;
     margin: 0% 0% 0% 4%;
     font-size: 17px;
     padding: 2% 0% 16% 1%;
 }
-.project{
-    margin: 5% 0% 1% 4%;  
+
+.project {
+    margin: 5% 0% 1% 4%;
 }
-.white p{
+
+.white p {
     margin: 1% 0% 2% 4%;
 }
-.upload{
+
+.upload {
     display: flex;
     justify-content: space-between;
     border: 1px dotted;
     margin: 4% 4% 0% 4%;
     padding: 1% 1% 1% 1%;
-    
 }
-.btn-upload{
+
+.btn-upload {
     background-color: white;
     outline: none;
     border: 1px solid grey;
