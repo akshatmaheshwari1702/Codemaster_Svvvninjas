@@ -1,0 +1,57 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.main {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin: 7% 0% 0% 35%;
+    border: 1px solid rgb(161, 157, 157);
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    margin: 3% 0% 0% 5%;
+}
+
+.img {
+    width: 20%;
+    height: 50%;
+}
+
+.header-the {
+    margin: 0% 0% 0% 10%;
+}
+
+.header-the h2 {
+    margin: 0% 0% 0% 0%;
+}
+
+.header-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.bt {
+    width: 87%;
+    padding: 8% 0% 8% 0%;
+    font: 30px;
+    font-weight: 700;
+    margin: 1% 0% 2% 0%;
+    outline: none;
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.13);
+    background-color: white;
+    text-decoration: none;
+}
+
+.btn2 {
+    margin: 3% 0% 0% 0%;
+    color: blue;
+}
+
+a:link {
+    text-decoration: none;
+}
