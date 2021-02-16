@@ -1,3 +1,12 @@
+<?php
+// Starting session
+session_start();
+if (isset($_SESSION["ID"] )) {
+     echo"session set";
+    header('location:./index.php');
+}
+else{
+?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -18,7 +27,7 @@ and open the template in the editor.
         }
         
         .b-color {
-            background-color: #ff1f1f!important;
+            background-color:#2C96DA!important;
         }
     </style>
 </head>
@@ -44,6 +53,12 @@ include('first.php');
                                         <input type="text" name="uname" class="form-control" id="exampleInputName" placeholder="Enter Name">
 
                                     </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" name="upass" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
+
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Email address</label>
                                         <input type="email" name="uemail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -63,24 +78,36 @@ include('first.php');
                                             Female
                                         </label>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputPassword1">Password</label>
-                                        <input type="password" name="upass" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    
+                                     <div class="form-group">
+                                        <label for="exampleInputPassword1">Mobile Number</label>
+                                        <input type="mobile number" name="umob" class="form-control" id="exampleInputPassword1" placeholder="MOBILE NUMBER">
                                     </div>
-
-                                    <div class="form-group">
-                                        <label for=" exampleFormControlTextarea1">About</label>
-                                        <textarea class="form-control" name="ucount" placeholder="Enter your " id="exampleFormControlTextarea1" rows="3"></textarea>
+                                     <div class="form-group">
+                                        <label for=" exampleFormControlTextarea1">COUNTRY</label>
+                                        <textarea class="form-control" name="ucont" placeholder="Enter your COUNTRY" id="exampleFormControlTextarea1" rows="1"></textarea>
 
                                     </div>
+                                     
                                     <div class="form-group">
                                         <label for=" exampleFormControlTextarea1">Organization</label>
-                                        <textarea class="form-control" name="uorg" placeholder="Enter your " id="exampleFormControlTextarea1" rows="1"></textarea>
+                                        <textarea class="form-control" name="uorg" placeholder="Enter your ORGANIZATION" id="exampleFormControlTextarea1" rows="1"></textarea>
 
                                     </div>
                                     <div class="form-group">
+                                        <label for=" exampleFormControlTextarea1">LinkdinID</label>
+                                        <textarea class="form-control" name="ulink" placeholder="Enter your LinkdinID" id="exampleFormControlTextarea1" rows="1"></textarea>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for=" exampleFormControlTextarea1">GitID</label>
+                                        <textarea class="form-control" name="ugitid" placeholder="Enter your GITID" id="exampleFormControlTextarea1" rows="1"></textarea>
+
+                                    </div>
+
+                                    <div class="form-group">
                                         <label for=" exampleFormControlTextarea1">Skills</label>
-                                        <textarea class="form-control" name="uskill" placeholder="Enter your " id="exampleFormControlTextarea1" rows="4"></textarea>
+                                        <textarea class="form-control" name="uskill" placeholder="Enter your Skills " id="exampleFormControlTextarea1" rows="4"></textarea>
 
                                     </div>
                                                                        
@@ -102,3 +129,6 @@ include('first.php');
 </body>
 
 </html>
+<?php
+}
+?>

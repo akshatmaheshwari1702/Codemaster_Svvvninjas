@@ -46,6 +46,10 @@ and open the template in the editor.
                          <span class="fa fa-user fa-spin ml-1 pl-1"></span>
                         <a class="btn btn-primary mx-3 px-1" href="./signup.php">Signup</a>
            </div>
+           <div class="nav-item rounded border border-black ml-5 mr-1">
+                        <span class="fa fa-user fa-spin ml-1 pl-1"></span>
+                        <a class="btn btn-primary mx-3 px-1" href="./logout.php" >Logout</a>
+                    </div>
         </nav>
     </div>
     

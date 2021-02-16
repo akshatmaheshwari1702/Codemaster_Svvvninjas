@@ -27,7 +27,7 @@
                     <img src="./svvv_ninjas.png" class="img">
                     <h1>NinjasFreelancer</h1>
                 </div>
-                <h1>Tell us what you need done</h1>
+                <h1>Tell us what you need to be done</h1>
                 <p>Contact skilled freelancers within minutes. View profiles, ratings, portfolios and chat with them.
                     Pay the freelancer only when you are 100% satisfied with their work.</p>
             </div>
